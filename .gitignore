@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variables file
+.env
+
+# Next.js build output
+.next/
+out/
+
+# Nuxt.js build output
+.nuxt/
+dist/
+
+# Gatsby files
+.cache/
+public/
+
+# Vuepress build output
+.vuepress/dist/
+
+# vue-cli output
+dist/
+*.local
+
+# Storybook build-output
+out/
+.storybook-out/
+
+# Static site generators
+public/
+output/
+
+# Hugo
+public/
+
+# Docusaurus
+build/
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
