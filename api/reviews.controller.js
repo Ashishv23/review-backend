@@ -5,7 +5,7 @@ export default class ReviewsController {
     // POST review api
     static async apiPostReviews(req, res, next){
         try {
-            const movieId = req.body.movieId;
+            const movieId = parseInt(req.body.movieId);
             const review = req.body.review;
             const user = req.body.user;
 
